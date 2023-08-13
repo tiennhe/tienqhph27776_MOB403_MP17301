@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgitem"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+
+        android:layout_margin="10dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+
+        android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/txtten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name:abc"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age:12"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/txtdiemTB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DiemTB:9.6"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/txtstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status:Dang Hoc"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:id="@+id/imgedit"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/edit" />
+
+        <ImageView
+            android:id="@+id/imgdelete"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/bin" />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+</RelativeLayout>
